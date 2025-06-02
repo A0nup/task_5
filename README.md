@@ -4,7 +4,7 @@
 ## Protocols Identified
 - DNS
 - HTTP
-- TCP
+- TLSv1.3
 
 ## Sample Packet Details
 
@@ -27,4 +27,4 @@
 - Info: Client Hello (SNI=www.office.com)
 
 ## Summary
-Captured and analyzed live network traffic using Wireshark. Used filters to isolate DNS, HTTP, and TCP packets. Understood basic protocol functions and communication patterns.
+Captured and analyzed live network traffic using Wireshark. Used filters to isolate DNS, HTTP, and TLSv1.3 packets. Understood basic protocol functions and communication patterns.
