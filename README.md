@@ -3,28 +3,28 @@
 
 ## Protocols Identified
 - DNS
-- HTTP
-- TLSv1.3
+- TCP
+- ARP
 
 ## Sample Packet Details
 
 ### DNS
-- Packet #: 22557
-- Source: 208.67.222.222
-- Destination: 192.168.117.48
-- Info: Standard query A DigiCert.com
+- Packet #: 8
+- Source: 192.168.227.79
+- Destination: 192.168.227.205
+- Info: Standard query A MSEDGE.NET
 
-### HTTP
-- Packet #: 51986
-- Source: 192.168.117.48
-- Destination: 13.107.6.156
-- Info: GET /favicon.ico HTTP/1.1
+### TCP
+- Packet #: 14
+- Source: 192.168.227.79
+- Destination: 34.210.226.255
+- Info: FIN,ACK
 
-### TLSv1.3
-- Packet #: 51995
-- Source: 192.168.117.48
-- Destination: 13.107.6.156
-- Info: Client Hello (SNI=www.office.com)
+### ARP
+- Packet #: 134
+- Source: 92:31:d1:a3:91:b9
+- Destination: Intel_cf:40:a9
+- Info: Who has 192.168.227.79? Tell 192.168.227.205
 
 ## Summary
-Captured and analyzed live network traffic using Wireshark. Used filters to isolate DNS, HTTP, and TLSv1.3 packets. Understood basic protocol functions and communication patterns.
+Captured and analyzed live network traffic using Wireshark. Used filters to isolate DNS, TCP and ARP packets. Understood basic protocol functions and communication patterns.
